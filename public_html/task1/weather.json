@@ -1,0 +1,134 @@
+{
+    "weatherReports": [{
+            "city": {
+                "city_id": 2656173,
+                "city_name": "Bath"
+            },
+            "current_conditions": "Light rain",
+            "temperature": 14,
+            "wind": {
+                "wind_speed": 10,
+                "wind_direction": "South Westerly",
+                "wind_chill_factor": -10
+            }
+        },
+        {
+            "city": {
+                "city_id": 2643741,
+                "city_name": "London"
+            },
+            "current_conditions": "Light clouds",
+            "temperature": 10,
+            "wind": {
+                "wind_speed": 25,
+                "wind_direction": "Easterly",
+                "wind_chill_factor": -4
+            }
+        },
+        {
+            "city": {
+                "city_id": 2654675,
+                "city_name": "Bristol"
+            },
+            "current_conditions": "Clouds",
+            "temperature": 20,
+            "wind": {
+                "wind_speed": 25,
+                "wind_direction": "Southerly",
+                "wind_chill_factor": -3
+            }
+        },
+        {
+            "city": {
+                "city_id": 2644688,
+                "city_name": "Leeds"
+            },
+            "current_conditions": "Sun",
+            "temperature": 25,
+            "wind": {
+                "wind_speed": 30,
+                "wind_direction": "Easterly",
+                "wind_chill_factor": 0
+            }
+        },
+        {
+            "city": {
+                "city_id": 2655603,
+                "city_name": "Birmingham"
+            },
+            "current_conditions": "Sun",
+            "temperature": 20,
+            "wind": {
+                "wind_speed": 10,
+                "wind_direction": "South Easterly",
+                "wind_chill_factor": -4
+            }
+        },
+        {
+            "city": {
+                "city_id": 2654993,
+                "city_name": "Bradford"
+            },
+            "current_conditions": "Sun",
+            "temperature": 20,
+            "wind": {
+                "wind_speed": 15,
+                "wind_direction": "Southerly",
+                "wind_chill_factor": -5
+            }
+        },
+        {
+            "city": {
+                "city_id": 2653941,
+                "city_name": "Bournmouth"
+            },
+            "current_conditions": "Sun",
+            "temperature": 30,
+            "wind": {
+                "wind_speed": 10,
+                "wind_direction": "Southerly",
+                "wind_chill_factor": -1
+            }
+        },
+        {
+            "city": {
+                "city_id": 2653877,
+                "city_name": "Cambridge"
+            },
+            "current_conditions": "Light clouds",
+            "temperature": 20,
+            "wind": {
+                "wind_speed": 20,
+                "wind_direction": "South Easterly",
+                "wind_chill_factor": -5
+            }
+        },
+        {
+            "city": {
+                "city_id": 2653877,
+                "city_name": "Canterbury"
+            },
+            "current_conditions": "Sun",
+            "temperature": 25,
+            "wind": {
+                "wind_speed": 15,
+                "wind_direction": "South Easterly",
+                "wind_chill_factor": 0
+            }
+        },
+        {
+            "city": {
+                "city_id": 2648579,
+                "city_name": "Glasgow"
+            },
+            "current_conditions": "Hail",
+            "temperature": 15,
+            "wind": {
+                "wind_speed": 10,
+                "wind_direction": "Northerly",
+                "wind_chill_factor": -10
+            }
+        }
+    ]
+}
+

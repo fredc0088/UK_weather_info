@@ -1,0 +1,54 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "title": "weather report",
+    "description": "Reports of weather conditions",
+    "type": "object",
+    "properties":
+            {
+                "weatherReports":
+                        {
+                            "type": "array",
+                            "items": {
+                                "type": "object",
+                                "properties": {
+                                    "city": {
+                                        "type": "object",
+                                        "properties": {
+                                            "city id": {
+                                                "type": "number",
+                                                "minimum": 0
+                                            },
+                                            "city name": {
+                                                "type": "string"
+                                            }
+                                        }
+                                    },
+                                    "current_conditions": {
+                                        "type": "string",
+                                        "enum": ["Sun", "Rain", "Light rain", "Snow", "Hail", "Clouds", "Light clouds", "Thunderstorm"]
+                                    },
+                                    "temperature": {
+                                        "type": "number"
+                                    },
+                                    "wind": {
+                                        "type": "object",
+                                        "properties": {
+                                            "wind speed": {
+                                                "type": "number",
+                                                "minimum": 0
+                                            },
+                                            "wind_direction": {
+                                                "type": "string",
+                                                "enum": ["Northerly", "North Easterly", "Easterly", "South Easterly", "Southerly", "South Westerly", "Westerly", "North Westerly"]
+                                            },
+                                            "wind_chill_factor": {
+                                                "type": "number"
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+            }
+}
+

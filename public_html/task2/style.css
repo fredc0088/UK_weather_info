@@ -1,0 +1,49 @@
+#wrapper{
+    position: absolute;
+    height: auto;
+    width: auto;
+    margin: -200px 0 0 -300px;
+    top: 50%;
+    left: 50%;
+}
+
+h1{
+    color: #666600;
+}
+
+#menu select option:hover{
+    background-color: #cc9900; 
+}
+
+
+#result{
+    float: left;
+    width: auto;
+    height: auto;
+    margin: 1em;
+    padding: 25px;
+    margin: 25px;
+    clear: left;
+    position:relative;
+    overflow:hidden;
+    border: 1px black solid;
+    font-family:arial; 
+    font-size: 15pt; 
+}
+
+#result h3{
+
+}
+
+#result ul{
+    list-style-type: none;
+}
+
+#result li{
+
+}
+
+#result hr{
+    width: 95%;
+    border: 1px black solid;
+}

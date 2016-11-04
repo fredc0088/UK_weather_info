@@ -1,0 +1,37 @@
+
+#wrapper{
+    position: absolute;
+    height: auto;
+    width: auto;
+    margin: -200px 0 0 -300px;
+    top: 50%;
+    left: 50%;
+}
+
+h1{
+    text-align: center;
+    color: #db2f2f;
+}
+
+#cities_list{
+    border-collapse: collapse;
+}
+
+#cities_list, th, td {
+    border: 1px solid black; 
+}
+
+thead{
+    background-color: #cc9900;
+}
+
+td {
+    padding: 0.25em;
+}
+
+tr {
+    border-bottom: solid 1px #333333;
+    text-align: center;
+}
+
+
