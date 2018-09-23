@@ -1,4 +1,4 @@
-/* 
+﻿/* 
  * 
  * This project was developed by myself and in my 
  * own words staying within the range of what I have learned
@@ -41,7 +41,10 @@ $(document).ready(function () {
     $('#cities_list').change(function () {
         if ($('#cities_list option:selected').attr("value") !== undefined) {
             var city_id = $('#cities_list option:selected').attr("value");
-            var apiKey = "a2caadba04afca2f4dc6d443b8f7a1ac";
+            var apiKey;
+            $.getJSON("creds.json",function(data){
+                apiKey = data.api_key;
+            });
             //handles the change of county while script is running
             if (city_id === undefined) {
                 $('#info').html('<p>A city needs to be selected.</p>');
@@ -64,7 +67,6 @@ $(document).ready(function () {
  */
 
 function makeRequest(url_request) {
-    setTimeout(function () {
         //set ajax request
         $.ajax({
             url: url_request,
@@ -113,7 +115,6 @@ function makeRequest(url_request) {
                 return;
             }
         });
-    }, 1000);
 }
 ;
 /*
